@@ -2,6 +2,7 @@ import Vue from 'vue';
 
 import './styles/quasar.sass';
 import '@quasar/extras/material-icons/material-icons.css';
+import '@quasar/extras/fontawesome-v5/fontawesome-v5.css';
 import {
   Quasar,
   QCard,
@@ -12,6 +13,7 @@ import {
   QPageContainer,
   QPage,
   QRouteTab,
+  QSeparator,
   QSpace,
   QTab,
   QTabs,
@@ -37,6 +39,7 @@ Vue.use(Quasar, {
     QPageContainer,
     QPage,
     QRouteTab,
+    QSeparator,
     QSpace,
     QTab,
     QTabs,
