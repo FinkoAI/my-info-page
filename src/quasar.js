@@ -5,6 +5,7 @@ import '@quasar/extras/material-icons/material-icons.css';
 import '@quasar/extras/fontawesome-v5/fontawesome-v5.css';
 import {
   Quasar,
+  QBadge,
   QCard,
   QCardSection,
   QLayout,
@@ -17,6 +18,8 @@ import {
   QSpace,
   QTab,
   QTabs,
+  QTimeline,
+  QTimelineEntry,
   QToolbar,
   QToolbarTitle,
   QBtn,
@@ -31,6 +34,7 @@ import {
 Vue.use(Quasar, {
   config: {},
   components: {
+    QBadge,
     QCard,
     QCardSection,
     QLayout,
@@ -43,6 +47,8 @@ Vue.use(Quasar, {
     QSpace,
     QTab,
     QTabs,
+    QTimeline,
+    QTimelineEntry,
     QToolbar,
     QToolbarTitle,
     QBtn,
